@@ -16,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/case/:id" element={<CaseDashboard />} />
+          <Route path="/case/:id/tracking" element={<TrackedObject />} />
           <Route path="/tracking/:id" element={<ObjectTracking />} />
           <Route path="/tracked-object/:id" element={<TrackedObject />} />
           <Route path="/cctvs" element={<CCTVs />} />
